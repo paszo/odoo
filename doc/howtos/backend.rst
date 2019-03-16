@@ -259,7 +259,9 @@ be declared in the ``'data'`` list (always loaded) or in the ``'demo'`` list
         .. patch::
 
 .. tip:: The content of the data files is only loaded when a module is
-    installed or updated.
+    installed or updated. 
+    (But the demo data are only loaded when module is installed)
+    
 
     After making some changes, do not forget to use
     :ref:`odoo-bin -u openacademy <reference/cmdline>` to save the changes
